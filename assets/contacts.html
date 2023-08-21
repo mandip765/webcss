@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+  </head>
+
+  <body>
+    <h2>contact details</h2>
+    <fieldset>
+      <legend>your information</legend>
+      <form action="mailto:mandipsth765@gmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="enter email" required>
+        </p>
+        <p>
+          <label for="username">username</label>
+          <input type="text" name="name" id="mane" required>
+        </p>
+        <p>
+        <h4>select your gender</h4>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="name">male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="name">female</label>
+        </p>
+        <p>
+        <h4>select your habits</h4>
+        <input type="checkbox" name="habits" id="dancing" value="dance">
+        <label for="name">dancing</label>
+        <p>
+          <input type="checkbox" name="habits" id="singing" value="sing">
+          <label for="name">singing</label>
+        </p>
+        </p>
+        <p>
+        <h4>please select your favorite coffee</h4>
+        <select name="coffee" id="coffee">
+          <option value="latte">latte</option>
+          <option value="americano">americano</option>
+          <option value="cappuccino">cappuccino</option>
+          <option value="espresso">espresso</option>
+        </select>
+        <select name="coffee type" id=" coffee type">
+          <optgroup label="strong coffee">
+            <option value="americano">americano</option>
+            <option value="cappuccino">cappuccino</option>
+          </optgroup>
+          <optgroup label="light coffee">
+            <option value="espresso">espresso</option>
+            <option value="latte">latte</option>
+          </optgroup>
+        </select>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+      </form>
+    </fieldset>
+  </body>
+
+</html>
